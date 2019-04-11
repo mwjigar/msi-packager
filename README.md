@@ -1,4 +1,4 @@
-msi-packager
+msi-packager-update
 ===
 
 Build MSI (Windows Installer) packages on Mac and Linux.
@@ -22,10 +22,10 @@ $ brew install msitools
 $ sudo apt-get install msitools
 ```
 
-## Install [via npm](https://www.npmjs.com/package/msi-packager)
+## Install [via npm](https://www.npmjs.com/package/msi-packager-update)
 
 ```bash
-$ npm install msi-packager
+$ npm install msi-packager-update
 ```
 
 ## Node Example
@@ -67,7 +67,7 @@ If you specify `localInstall: true` as an option, the app will be installed to t
 ## CLI
 
 ```bash
-Usage: msi-packager <source> <output> [options]
+Usage: msi-packager-update <source> <output> [options]
 
 source     Directory containing app to package
 output     write output .msi to this path
